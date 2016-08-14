@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012EBC881C70E6A1000DB40F /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 012EBC871C70E6A1000DB40F /* Minecraft.ttf */; };
 		01703EDB1C70C97500EEBD21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01703EDA1C70C97500EEBD21 /* AppDelegate.swift */; };
 		01703EDD1C70C97500EEBD21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01703EDC1C70C97500EEBD21 /* ViewController.swift */; };
 		01703EE01C70C97500EEBD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01703EDE1C70C97500EEBD21 /* Main.storyboard */; };
 		01703EE21C70C97500EEBD21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01703EE11C70C97500EEBD21 /* Assets.xcassets */; };
 		01703EE51C70C97500EEBD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01703EE31C70C97500EEBD21 /* LaunchScreen.storyboard */; };
+		0197ABD71C72501F008D124D /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0197ABD61C72501F008D124D /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		012EBC871C70E6A1000DB40F /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		01703ED71C70C97400EEBD21 /* Retro Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01703EDA1C70C97500EEBD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01703EDC1C70C97500EEBD21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		01703EE11C70C97500EEBD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01703EE41C70C97500EEBD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01703EE61C70C97500EEBD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0197ABD61C72501F008D124D /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		01703ED91C70C97500EEBD21 /* Retro Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				0197ABD61C72501F008D124D /* btn.wav */,
+				012EBC871C70E6A1000DB40F /* Minecraft.ttf */,
 				01703EDA1C70C97500EEBD21 /* AppDelegate.swift */,
 				01703EDC1C70C97500EEBD21 /* ViewController.swift */,
 				01703EDE1C70C97500EEBD21 /* Main.storyboard */,
@@ -97,6 +103,7 @@
 					01703ED61C70C97400EEBD21 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 9Q6VR23WUE;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -123,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0197ABD71C72501F008D124D /* btn.wav in Resources */,
 				01703EE51C70C97500EEBD21 /* LaunchScreen.storyboard in Resources */,
 				01703EE21C70C97500EEBD21 /* Assets.xcassets in Resources */,
+				012EBC881C70E6A1000DB40F /* Minecraft.ttf in Resources */,
 				01703EE01C70C97500EEBD21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -263,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -285,6 +296,7 @@
 				01703EEB1C70C97500EEBD21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
